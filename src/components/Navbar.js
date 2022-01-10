@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = ({ navbarLinks }) => {
-  // Determines if the "menu icon" was clicked or not. Note that this icon is only visible when the window width is small.
+  
   const [menuClicked, setMenuClicked] = useState(false);
 
   const toggleMenuClick = () => {
